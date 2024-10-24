@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halothemes</title>
+    <link rel="shortcut icon" href="https://halothemes.net/cdn/shop/files/logo_40x40px_32x32.png?v=1686043521"
+        type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section id="special-offer">
+        <div class="fs-12px text-uppercase py-2 fw-500">
+            <marquee behavior="alternate">
+                <span><i class="bi bi-lightning-charge-fill"></i> SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
+                    <b>$1/MONTH</b></span>
+            </marquee>
+        </div>
+    </section>
+    <section id="header">
+        <div class="container pt-4 pb-3">
+            <div class="row">
+                <div class="col-2">
+                    <h1 id="logo-text" class="mulish-bold-800 mb-0" style="font-size: 60px;">
+                        <span class="text-decoration-overline">e</span><span>lla</span>
+                    </h1>
+                </div>
+                <div class="col mulish-bold-500">
+                    <div class="d-none d-lg-block text-end">
+                        <b class="text-uppercase w-100">free shipping on all orders. no minimum purchase</b>
+                        <div class="d-flex justify-content-end py-3 hover-box-a-bold">
+                            <a href="#"
+                                class="text-capitalize ms-3 link-secondary text-decoration-none d-flex align-items-center">
+                                <span class="me-2"><i class="bi bi-bag"></i></span>
+                                shopping cart
+                                <span class="badge rounded-pill text-bg-danger ms-2">0</span>
+                            </a>
+                            <a href="#"
+                                class="text-capitalize ms-3 link-secondary text-decoration-none d-flex align-items-center">
+                                <span class="me-2"><i class="bi bi-heart"></i></span> my wish lists
+                            </a>
+                            <a href="#" data-bs-target="#AccountModalToggle" data-bs-toggle="modal"
+                                class="text-capitalize ms-3 link-secondary text-decoration-none d-flex align-items-center">
+                                sign in or create an account
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end py-3 d-lg-none">
+                        <a href="#" class="btn btn-light mx-2"><i class="bi bi-bag"></i> <span
+                                class="badge rounded-pill text-bg-danger">0</span></a>
+                        <a href="#" class="btn btn-light mx-2"><i class="bi bi-heart"></i> <i
+                                class="bi bi-list-ul"></i></a>
+                        <a href="#" class="btn btn-light mx-2"><i class="bi bi-person"></i></a>
+                        <button class="btn btn-light d-lg-none mx-2" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i
+                                class="bi bi-layout-sidebar-inset-reverse"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <div class="bg-dark">
+            <div class="offcanvas-lg offcanvas-end bg-dark" tabindex="-1" id="offcanvasResponsive"
+                aria-labelledby="offcanvasResponsiveLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasResponsiveLabel">Navigation</h5>
+                    <div type="button" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive"
+                        aria-label="Close" class="text-white ms-auto p-2"><i class="bi bi-x-lg"></i></div>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="container">
+                        <ul class="nav text-uppercase mulish-bold-500 hover-box-a-bold py-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">new in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">trend</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5 position-relative" href="#">
+                                    collections
+                                    <span
+                                        class="position-absolute top-0 start-75 translate-middle badge rounded-pill fs-10px bg-danger text-capitalize">
+                                        Sale
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">lookbook</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5 position-relative" href="#">
+                                    demo
+                                    <span
+                                        class="position-absolute top-0 start-75 translate-middle badge rounded-pill fs-10px bg-info text-capitalize">
+                                        new
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5 position-relative" href="#">
+                                    shop instagram
+                                    <span
+                                        class="position-absolute top-0 start-75 translate-middle badge rounded-pill fs-10px bg-warning text-capitalize">
+                                        hot
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">brands</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ps-0 pe-4 pe-xl-5" href="#">faqs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper bannerSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card text-dark border-0" style="height: 80vh; background-color: #ddeeee;">
+                        <img src="./assets/img/banner/slideshow-1.webp" class="w-100 h-100 object-fit-cover" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="container h-100 d-flex align-items-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="text-center px-4 text-black">
+                                            <h5 class="card-title text-uppercase mb-3 mulish-bold-800">Cosmopolis</h5>
+                                            <div class="line mb-3 mx-auto"></div>
+                                            <p class="card-text">Quisquemos sodales suscipit tortor diaemcos condimentum
+                                                de
+                                                cosmo lacus
+                                                melefiend menean diverra loremous</p>
+                                            <a href="#" class="text-uppercase btn btn-dark px-4 py-2">shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card text-bg-dark border-0" style="height: 80vh;">
+                        <img src="./assets/img/banner/2.jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="container h-100 d-flex align-items-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="text-center px-4 text-black">
+                                            <h5 class="card-title text-uppercase mb-3 mulish-bold-800">Cosmopolis</h5>
+                                            <div class="line mb-3 mx-auto"></div>
+                                            <p class="card-text">Quisquemos sodales suscipit tortor diaemcos condimentum
+                                                de
+                                                cosmo lacus
+                                                melefiend menean diverra loremous</p>
+                                            <a href="#" class="text-uppercase btn btn-dark px-4 py-2">shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card text-bg-dark border-0" style="height: 80vh;">
+                        <img src="./assets/img/banner/3.jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="container h-100 d-flex align-items-center">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="text-center px-4 text-black">
+                                            <h5 class="card-title text-uppercase mb-3 mulish-bold-800">Cosmopolis</h5>
+                                            <div class="line mb-3 mx-auto"></div>
+                                            <p class="card-text">Quisquemos sodales suscipit tortor diaemcos condimentum
+                                                de
+                                                cosmo lacus
+                                                melefiend menean diverra loremous</p>
+                                            <a href="#" class="text-uppercase btn btn-dark px-4 py-2">shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-4">
+                    <a href="#">
+                        <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
+                            <img src="./assets/img/banner/4.jpg" class="w-100 h-100 object-fit-cover position-absolute"
+                                alt="...">
+                            <div class="card-img-overlay">
+                                <div class="container h-100 d-flex align-items-center justify-content-center">
+                                    <h5 class="card-title text-uppercase">Cosmopolis</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
+                            <img src="./assets/img/banner/5.jpg" class="w-100 h-100 object-fit-cover position-absolute"
+                                alt="...">
+                            <div class="card-img-overlay">
+                                <div class="container h-100 d-flex align-items-center justify-content-center">
+                                    <h5 class="card-title text-uppercase">Cosmopolis</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
+                            <img src="./assets/img/banner/6.jpg" class="w-100 h-100 object-fit-cover position-absolute"
+                                alt="...">
+                            <div class="card-img-overlay">
+                                <div class="container h-100 d-flex align-items-center justify-content-center">
+                                    <h5 class="card-title text-uppercase">Cosmopolis</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-4 d-flex align-items-center">
+                    <div class="border-bottom-2px w-100"></div>
+                </div>
+                <div class="col-4 text-uppercase text-center mulish-bold-800">
+                    new arrivals
+                    <br>
+                    <a href="" class="text-capitalize fs-14px text-dark border-bottom-1px text-decoration-none">view
+                        all</a>
+                </div>
+                <div class="col-4 d-flex align-items-center">
+                    <div class="border-bottom-2px w-100"></div>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-6 col-md-3">
+                    <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
+                        <a href="#">
+                            <img src="./assets/img/product/1.webp" alt="Avatar"
+                                class="w-100 h-100 object-fit-cover position-absolute">
+                        </a>
+                        <div class="position-absolute end-0 p-2">
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle btn-eye d-none"><i
+                                        class="bi bi-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="p-3 bg-white">
+                                <a href="#"
+                                    class="add-to-cart-btn text-uppercase btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="bg-white position-absolute bottom-0 w-100 submit-to-cart-box d-none">
+                            <div class="position-relative p-3">
+                                <button class="btn-close btn btn-light position-absolute bottom-100 end-0 p-3"></button>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade text-center show active" id="pills-size-product-1"
+                                        role="tabpanel" aria-labelledby="pills-size-product-1-tab" tabindex="0">Size: S
+                                    </div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product-2" role="tabpanel"
+                                        aria-labelledby="pills-size-product-2-tab" tabindex="0">
+                                        Size: M</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product-3" role="tabpanel"
+                                        aria-labelledby="pills-size-product-3-tab" tabindex="0">
+                                        Size: L</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product-4" role="tabpanel"
+                                        aria-labelledby="pills-size-product-4-tab" tabindex="0">Size: XL</div>
+                                </div>
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-size-product-1-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-size-product-1" type="button"
+                                            role="tab" aria-controls="pills-size-product-1"
+                                            aria-selected="true">S</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product-2-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product-2" type="button" role="tab"
+                                            aria-controls="pills-size-product-2" aria-selected="false">M</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product-3-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product-3" type="button" role="tab"
+                                            aria-controls="pills-size-product-3" aria-selected="false">L</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product-4-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product-4" type="button" role="tab"
+                                            aria-controls="pills-size-product-4" aria-selected="false">XL</button>
+                                    </li>
+                                </ul>
+                                <a href="#"
+                                    class="text-uppercase submit-to-cart-btn btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-3 fs-14px">
+                        <div class="text-uppercase text-black-50">sodling</div>
+                        <div class="text-capitalize py-2 text-twoLine">naminos dementus a milance - pattern</div>
+                        <div class="mulish-bold-800">$86.00 - $99.00</div>
+                        <div class="d-flex justify-content-center align-items-center py-2">
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #198754; border-color: #198754;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #0dcaf0; border-color: #0dcaf0;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #d63384; border-color: #d63384;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
+                        <a href="#">
+                            <img src="./assets/img/product/2.webp" alt="Avatar"
+                                class="w-100 h-100 object-fit-cover position-absolute">
+                        </a>
+                        <div class="position-absolute end-0 p-2">
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle btn-eye d-none"><i
+                                        class="bi bi-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="p-3 bg-white">
+                                <a href="#"
+                                    class="add-to-cart-btn text-uppercase btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="bg-white position-absolute bottom-0 w-100 submit-to-cart-box d-none">
+                            <div class="position-relative p-3">
+                                <button class="btn-close btn btn-light position-absolute bottom-100 end-0 p-3"></button>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade text-center show active" id="pills-size-product2-1"
+                                        role="tabpanel" aria-labelledby="pills-size-product2-1-tab" tabindex="0">Size: S
+                                    </div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product2-2" role="tabpanel"
+                                        aria-labelledby="pills-size-product2-2-tab" tabindex="0">
+                                        Size: M</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product2-3" role="tabpanel"
+                                        aria-labelledby="pills-size-product2-3-tab" tabindex="0">
+                                        Size: L</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product2-4" role="tabpanel"
+                                        aria-labelledby="pills-size-product2-4-tab" tabindex="0">Size: XL</div>
+                                </div>
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-size-product2-1-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-size-product2-1" type="button"
+                                            role="tab" aria-controls="pills-size-product2-1"
+                                            aria-selected="true">S</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product2-2-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product2-2" type="button" role="tab"
+                                            aria-controls="pills-size-product2-2" aria-selected="false">M</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product2-3-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product2-3" type="button" role="tab"
+                                            aria-controls="pills-size-product2-3" aria-selected="false">L</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product2-4-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product2-4" type="button" role="tab"
+                                            aria-controls="pills-size-product2-4" aria-selected="false">XL</button>
+                                    </li>
+                                </ul>
+                                <a href="#"
+                                    class="text-uppercase submit-to-cart-btn btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-3 fs-14px">
+                        <div class="text-uppercase text-black-50">tomorrow</div>
+                        <div class="text-capitalize py-2 text-twoLine">dinterdum pretium condimento - pattern</div>
+                        <div class="mulish-bold-800">$139.00 - $189.00</div>
+                        <div class="d-flex justify-content-center align-items-center py-2">
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor2"
+                                    style="width: 20px; height: 20px; background-color: #0d6efd; border-color: #0d6efd;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor2"
+                                    style="width: 20px; height: 20px; background-color: #ffc107; border-color: #ffc107;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor2"
+                                    style="width: 20px; height: 20px; background-color: #0dcaf0; border-color: #0dcaf0;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor2"
+                                    style="width: 20px; height: 20px; background-color: #198754; border-color: #198754;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor2"
+                                    style="width: 20px; height: 20px; background-color: #d63384; border-color: #d63384;">
+                            </div>
+                            <a href="#" class="rounded-pill btn btn-light fs-10px">+1</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
+                        <a href="#">
+                            <img src="./assets/img/product/3.webp" alt="Avatar"
+                                class="w-100 h-100 object-fit-cover position-absolute">
+                        </a>
+                        <div class="position-absolute end-0 p-2">
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle btn-eye d-none"><i
+                                        class="bi bi-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="p-3 bg-white">
+                                <a href="#"
+                                    class="add-to-cart-btn text-uppercase btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="bg-white position-absolute bottom-0 w-100 submit-to-cart-box d-none">
+                            <div class="position-relative p-3">
+                                <button class="btn-close btn btn-light position-absolute bottom-100 end-0 p-3"></button>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade text-center show active" id="pills-size-product3-1"
+                                        role="tabpanel" aria-labelledby="pills-size-product3-1-tab" tabindex="0">Size: S
+                                    </div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product3-2" role="tabpanel"
+                                        aria-labelledby="pills-size-product3-2-tab" tabindex="0">
+                                        Size: M</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product3-3" role="tabpanel"
+                                        aria-labelledby="pills-size-product3-3-tab" tabindex="0">
+                                        Size: L</div>
+                                    <div class="tab-pane fade text-center" id="pills-size-product3-4" role="tabpanel"
+                                        aria-labelledby="pills-size-product3-4-tab" tabindex="0">Size: XL</div>
+                                </div>
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-size-product3-1-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-size-product3-1" type="button"
+                                            role="tab" aria-controls="pills-size-product3-1"
+                                            aria-selected="true">S</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product3-2-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product3-2" type="button" role="tab"
+                                            aria-controls="pills-size-product3-2" aria-selected="false">M</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product3-3-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product3-3" type="button" role="tab"
+                                            aria-controls="pills-size-product3-3" aria-selected="false">L</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-size-product3-4-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-size-product3-4" type="button" role="tab"
+                                            aria-controls="pills-size-product3-4" aria-selected="false">XL</button>
+                                    </li>
+                                </ul>
+                                <a href="#"
+                                    class="text-uppercase submit-to-cart-btn btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-3 fs-14px">
+                        <div class="text-uppercase text-black-50">paul smith</div>
+                        <div class="text-capitalize py-2 text-twoLine">magnis darturien metro lacinis - black</div>
+                        <div class="mulish-bold-800">$86.00</div>
+                        <div class="d-flex justify-content-center align-items-center py-2">
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor3"
+                                    style="width: 20px; height: 20px; background-color: #d63384; border-color: #d63384;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
+                        <a href="#">
+                            <img src="./assets/img/product/4.webp" alt="Avatar"
+                                class="w-100 h-100 object-fit-cover position-absolute">
+                        </a>
+                        <div class="position-absolute end-0 p-2">
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                            <div>
+                                <button class="btn btn-light text-dark rounded-circle btn-eye d-none"><i
+                                        class="bi bi-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="p-3 bg-white">
+                                <a href="#"
+                                    class="add-to-cart-btn text-uppercase btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="bg-white position-absolute bottom-0 w-100 submit-to-cart-box d-none">
+                            <div class="position-relative p-3">
+                                <button class="btn-close btn btn-light position-absolute bottom-100 end-0 p-3"></button>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade text-center show active" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab" tabindex="0">Size: S</div>
+                                    <div class="tab-pane fade text-center" id="pills-one" role="tabpanel"
+                                        aria-labelledby="pills-one-tab" tabindex="0">
+                                        Size: M</div>
+                                    <div class="tab-pane fade text-center" id="pills-two" role="tabpanel"
+                                        aria-labelledby="pills-two-tab" tabindex="0">
+                                        Size: L</div>
+                                    <div class="tab-pane fade text-center" id="pills-three" role="tabpanel"
+                                        aria-labelledby="pills-three-tab" tabindex="0">Size: XL</div>
+                                </div>
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-home" type="button" role="tab"
+                                            aria-controls="pills-home" aria-selected="true">S</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-one-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-one" type="button" role="tab"
+                                            aria-controls="pills-one" aria-selected="false">M</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-two" type="button" role="tab"
+                                            aria-controls="pills-two" aria-selected="false">L</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-three" type="button" role="tab"
+                                            aria-controls="pills-three" aria-selected="false">XL</button>
+                                    </li>
+                                </ul>
+                                <a href="#"
+                                    class="text-uppercase submit-to-cart-btn btn btn-outline-dark py-2 border-radius-none w-100 mulish-bold-800 fs-14px"
+                                    style="border-radius:  0;">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-3 fs-14px">
+                        <div class="text-uppercase text-black-50">sodling</div>
+                        <div class="text-capitalize py-2 text-twoLine">naminos dementus a milance - pattern</div>
+                        <div class="mulish-bold-800">$86.00 - $99.00</div>
+                        <div class="d-flex justify-content-center align-items-center py-2">
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #198754; border-color: #198754;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #0dcaf0; border-color: #0dcaf0;">
+                            </div>
+                            <div class="form-check mx-1">
+                                <input class="form-check-input" type="radio" name="radioColor1"
+                                    style="width: 20px; height: 20px; background-color: #d63384; border-color: #d63384;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-4">
+                    <a href="#"
+                        class="text-uppercase btn btn-outline-dark py-2 px-5 border-radius-none mulish-bold-800 fs-14px"
+                        style="border-radius: 0;">see more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-light">
+            <div class="container pt-4">
+                <div class="py-4">
+                    <div class="text-uppercase text-center mulish-bold-800 mb-2"># ella on instagram</div>
+                    <div class="text-center fs-14px">phasellus lorem malesuda ligula pulvinar commodo maecenas</div>
+                </div>
+                <div class="py-4">
+                    <div class="position-relative">
+                        <div class="swiper ShareSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/7.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/8.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/9.jpg" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/10.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/11.jpg" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/7.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/8.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/9.jpg" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/10.png" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="position-relative" style="padding-bottom: 100%;">
+                                        <img src="./assets/img/product/11.jpg" alt=""
+                                            class="position-absolute w-100 h-100 object-fit-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-btn-next btn btn-light"><i class="bi bi-chevron-right"></i></div>
+                        <div class="swiper-btn-prev btn btn-light"><i class="bi bi-chevron-left"></i></div>
+                    </div>
+
+                    <div class="text-center py-4">
+                        <a href="#"
+                            class="text-uppercase btn btn-dark py-2 px-5 border-radius-none mulish-bold-800 fs-14px"
+                            style="border-radius: 0;">view gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="bg-dark py-5 fs-14px">
+            <div class="container">
+                <div class="row">
+                    <div class="mt-3 mt-lg-0 col-6 col-sm-4 col-lg">
+                        <h6 class="text-uppercase text-white">Shop</h6>
+                        <ul class="nav flex-column hover-box-a-bold">
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">new in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">mem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">bags & accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">top brands</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">sale & special offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">lookbook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-3 mt-lg-0 col-6 col-sm-4 col-lg">
+                        <h6 class="text-uppercase text-white">Infomation</h6>
+                        <ul class="nav flex-column hover-box-a-bold">
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">customer service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">reward program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">shipping & return</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">privacy policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">terms & conditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-3 mt-lg-0 col-6 col-sm-4 col-lg">
+                        <h6 class="text-uppercase text-white">customer service</h6>
+                        <ul class="nav flex-column hover-box-a-bold">
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">search terms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">advance search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">orders and return</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">two us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">theme FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">consultant</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light ps-0 text-capitalize" href="#">store locations</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-4 mt-3 mt-lg-0">
+                        <h6 class="text-uppercase text-white">newsletter sign up</h6>
+                        <span class="text-white">Sign up for exclusive updates, new arrivals & insider only
+                            discounts</span>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="w-100">
+                                <input type="email" class="p-2 w-100 bg-transparent custom-placeholder text-white"
+                                    style="border: solid 1px white;" id="email" placeholder="Email Address">
+                            </div>
+                            <div class="ms-2">
+                                <button type="submit" class="p-2 px-4 btn-light text-uppercase mulish-bold-800"
+                                    style="border: solid 1px white;">Submit</button>
+                            </div>
+                        </div>
+                        <div class="hover-box-a-translateY d-flex mt-5">
+                            <a href="#"
+                                class="d-flex justify-content-center align-items-center bg-white text-dark me-3 rounded-circle"
+                                style="width: 36px; height: 36px;"><i class="bi bi-facebook"></i></a>
+                            <a href="#"
+                                class="d-flex justify-content-center align-items-center bg-white text-dark me-3 rounded-circle"
+                                style="width: 36px; height: 36px;"><i class="bi bi-twitter"></i></a>
+                            <a href="#"
+                                class="d-flex justify-content-center align-items-center bg-white text-dark me-3 rounded-circle"
+                                style="width: 36px; height: 36px;"><i class="bi bi-instagram"></i></a>
+                            <a href="#"
+                                class="d-flex justify-content-center align-items-center bg-white text-dark me-3 rounded-circle"
+                                style="width: 36px; height: 36px;"><i class="bi bi-pinterest"></i></a>
+                            <a href="#"
+                                class="d-flex justify-content-center align-items-center bg-white text-dark me-3 rounded-circle"
+                                style="width: 36px; height: 36px;"><i class="bi bi-snapchat"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6 col-lg-4">
+                        <span class="text-white text-capitalize">&copy; 2014 Ella Demo. All rights reserved. powered by
+                            shopify. shopify themes by halothemes.com</span>
+                    </div>
+                    <div class="col-md-6 col-lg-8 mt-3 mt-sm-0">
+                        <div class="d-flex justify-content-end align-items-center hover-box-a-translateY">
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/visa.svg" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/mastercard-logo.png" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/visa.svg" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/visa.svg" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/visa.svg" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/visa.svg" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                            <a href="#" class="ms-3"><img src="./assets/img/pay/PayPal-logo.png" alt=""
+                                    class="object-fit-cover" width="35" height="20"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fixed">
+        <div class="d-flex flex-column shadow">
+            <button class="btn btn-light" style="border-radius: 0;"><i class="bi bi-clock-history"></i></button>
+            <button class="btn btn-light" style="border-radius: 0;"><i class="bi bi-share"></i></button>
+            <button id="scrollTopBtn" class="btn btn-light" style="border-radius: 0;"><i class="bi bi-arrow-up"></i></button>
+        </div>
+    </section>
+    <section id="modal">
+        <div class="modal fade" id="AccountModalToggle" aria-hidden="true" aria-labelledby="AccountModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="AccountModalToggleLabel">Đăng Nhập</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                            <label for="floatingEmail">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                            <label class="form-check-label" for="autoSizingCheck2">
+                                Ghi nhớ mật khẩu
+                            </label>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="py-2" data-bs-target="#AccountModalToggle2" data-bs-toggle="modal">Đăng
+                                kí
+                                tài khoản.</a>
+                            <a href="#" class="py-2" data-bs-target="#AccountModalToggle3" data-bs-toggle="modal">Quên
+                                mật
+                                khẩu?</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-dark">Đăng Nhập</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="AccountModalToggle2" aria-hidden="true" aria-labelledby="AccountModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="AccountModalToggleLabel2">Đăng ký</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingFirstName"
+                                        placeholder="First name">
+                                    <label for="floatingFirstName">First name</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingLastName"
+                                        placeholder="Last name">
+                                    <label for="floatingLastName">Last name</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingEmail2" placeholder="Email">
+                                    <label for="floatingEmail2">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingPassword2"
+                                        placeholder="Password">
+                                    <label for="floatingPassword2">Password</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" data-bs-target="#AccountModalToggle" data-bs-toggle="modal">Quay lại đăng nhập</a>
+                        <button class="btn btn-dark">Đăng kí</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="AccountModalToggle3" aria-hidden="true" aria-labelledby="AccountModalToggleLabel3"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="AccountModalToggleLabel3">Quên mật khẩu</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingEmail"
+                                    placeholder="name@example.com">
+                                <label for="floatingEmail">Email address</label>
+                            </div>
+                            <button class="btn btn-outline-secondary" type="button">Gửi mã</button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" data-bs-target="#AccountModalToggle" data-bs-toggle="modal">Quay lại đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
