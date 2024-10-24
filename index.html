@@ -26,7 +26,7 @@
 <body>
     <section id="special-offer">
         <div class="fs-12px text-uppercase py-2 fw-500">
-            <marquee behavior="alternate">
+            <marquee>
                 <span><i class="bi bi-lightning-charge-fill"></i> SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR
                     <b>$1/MONTH</b></span>
             </marquee>
@@ -66,7 +66,7 @@
                                 class="badge rounded-pill text-bg-danger">0</span></a>
                         <a href="#" class="btn btn-light mx-2"><i class="bi bi-heart"></i> <i
                                 class="bi bi-list-ul"></i></a>
-                        <a href="#" class="btn btn-light mx-2"><i class="bi bi-person"></i></a>
+                        <a href="#" class="btn btn-light mx-2" data-bs-target="#AccountModalToggle" data-bs-toggle="modal"><i class="bi bi-person"></i></a>
                         <button class="btn btn-light d-lg-none mx-2" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i
                                 class="bi bi-layout-sidebar-inset-reverse"></i></button>
@@ -211,7 +211,7 @@
 
         <div class="container">
             <div class="row py-4">
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <a href="#">
                         <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
                             <img src="./assets/img/banner/4.jpg" class="w-100 h-100 object-fit-cover position-absolute"
@@ -224,7 +224,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <a href="#">
                         <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
                             <img src="./assets/img/banner/5.jpg" class="w-100 h-100 object-fit-cover position-absolute"
@@ -237,7 +237,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <a href="#">
                         <div class="card text-bg-dark border-0" style="padding-bottom: 50%;">
                             <img src="./assets/img/banner/6.jpg" class="w-100 h-100 object-fit-cover position-absolute"
@@ -268,10 +268,8 @@
             <div class="row py-4">
                 <div class="col-6 col-md-3">
                     <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
-                        <a href="#">
                             <img src="./assets/img/product/1.webp" alt="Avatar"
                                 class="w-100 h-100 object-fit-cover position-absolute">
-                        </a>
                         <div class="position-absolute end-0 p-2">
                             <div>
                                 <button class="btn btn-light text-dark rounded-circle"><i
@@ -356,10 +354,8 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
-                        <a href="#">
                             <img src="./assets/img/product/2.webp" alt="Avatar"
                                 class="w-100 h-100 object-fit-cover position-absolute">
-                        </a>
                         <div class="position-absolute end-0 p-2">
                             <div>
                                 <button class="btn btn-light text-dark rounded-circle"><i
@@ -453,10 +449,8 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
-                        <a href="#">
                             <img src="./assets/img/product/3.webp" alt="Avatar"
                                 class="w-100 h-100 object-fit-cover position-absolute">
-                        </a>
                         <div class="position-absolute end-0 p-2">
                             <div>
                                 <button class="btn btn-light text-dark rounded-circle"><i
@@ -533,10 +527,8 @@
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="position-relative box-product overflow-hidden" style="padding-bottom: 150%;">
-                        <a href="#">
                             <img src="./assets/img/product/4.webp" alt="Avatar"
                                 class="w-100 h-100 object-fit-cover position-absolute">
-                        </a>
                         <div class="position-absolute end-0 p-2">
                             <div>
                                 <button class="btn btn-light text-dark rounded-circle"><i
@@ -795,7 +787,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6 col-lg-4 mt-3 mt-lg-0">
+                    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
                         <h6 class="text-uppercase text-white">newsletter sign up</h6>
                         <span class="text-white">Sign up for exclusive updates, new arrivals & insider only
                             discounts</span>
